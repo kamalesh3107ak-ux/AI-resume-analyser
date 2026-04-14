@@ -22,9 +22,9 @@ const ResumeCard = ({
       <div className="gradient-border animate-in fade-in duration-1000">
         <div className="w-full h-full">
           <img
-            src={imagePath || '/images/default.png'}
+            src={imagePath || '/images/resume-1.png'}
             alt="Resume"
-            className="w-full h-[350px] max-sm:h-[200px] object-cover object-top"
+            className="w-full h-88 max-sm:h-52 object-cover object-top"
           />
         </div>
       </div>
