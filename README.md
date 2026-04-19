@@ -19,23 +19,23 @@
 
 ### 🏠 Dashboard
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 
 ### 📤 Upload Resume (Drag & Drop)
 
-![Upload](./screenshots/upload.png)
+![Upload](upload.png)
 
 ### ⏳ Processing State
 
-![Loading](./screenshots/loading.png)
+![Loading](loading.png)
 
 ### 📊 Resume Analysis & ATS Score
 
-![Analysis](./screenshots/analysis.png)
+![Analysis](analysis.png)
 
 ### 📁 Resume History / Multiple Reports
 
-![History](./screenshots/history.png)
+![History](history.png)
 
 ---
 
