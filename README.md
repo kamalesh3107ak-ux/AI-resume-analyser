@@ -122,16 +122,6 @@ npm run build
 
 ---
 
-## 🚀 Future Improvements
-
-* 📥 Downloadable PDF report
-* 🌐 Multi-language support
-* 🧠 Advanced AI scoring model
-* 📊 Resume comparison feature
-* ☁️ Cloud sync across devices
-
----
-
 ## 🧩 Challenges Faced
 
 * PDF to image conversion
