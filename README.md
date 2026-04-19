@@ -1,6 +1,5 @@
 # 🤖 AI Resume Analyzer (Resumind)
 
-![Status](https://img.shields.io/badge/Status-Live-green)
 
 > 🚀 AI-powered platform to analyze resumes, calculate ATS scores, and provide smart improvement suggestions
 
@@ -16,7 +15,7 @@
 
 ### 🔐 Authentication
 
-![Auth](./screenshots/auth.png)
+![Auth](auth.png)
 
 ### 🏠 Dashboard
 
