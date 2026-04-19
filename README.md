@@ -13,17 +13,9 @@
 
 ---
 
-## 🎯 Live Demo
-
-🔗 https://puter.com/app/ak-ai-resume-analyzer
 
 > ☁️ Deployed and powered by Puter Cloud
 
----
-
-## 🎥 Demo
-
-![Demo](./screenshots/demo.gif)
 
 ---
 
@@ -31,27 +23,27 @@
 
 ### 🔐 Authentication
 
-![Auth](./screenshots/auth.png)
+![Auth](auth.png)
 
 ### 🏠 Dashboard
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 
 ### 📤 Upload Resume (Drag & Drop)
 
-![Upload](./screenshots/upload.png)
+![Upload](upload.png)
 
 ### ⏳ Processing State
 
-![Loading](./screenshots/loading.png)
+![Loading](loading.png)
 
 ### 📊 Resume Analysis & ATS Score
 
-![Analysis](./screenshots/analysis.png)
+![Analysis](analysis.png)
 
 ### 📁 Resume History / Multiple Reports
 
-![History](./screenshots/history.png)
+![History](history.png)
 
 ---
 
