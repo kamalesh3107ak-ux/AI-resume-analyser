@@ -1,87 +1,173 @@
-# Welcome to React Router!
+# 🤖 AI Resume Analyzer (Resumind)
 
-A modern, production-ready template for building full-stack React applications using React Router.
+> 🚀 AI-powered platform to analyze resumes, calculate ATS scores, and provide smart improvement suggestions
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+---
 
-## Features
+## 🎯 Live Demo
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+🔗 https://puter.com/app/ak-ai-resume-analyzer
 
-## Getting Started
+---
 
-### Installation
+## 📸 Screenshots
 
-Install the dependencies:
+### 🔐 Authentication
+
+![Auth](./screenshots/auth.png)
+
+### 🏠 Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+### 📤 Upload Resume (Drag & Drop)
+
+![Upload](./screenshots/upload.png)
+
+### ⏳ Processing State
+
+![Loading](./screenshots/loading.png)
+
+### 📊 Resume Analysis & ATS Score
+
+![Analysis](./screenshots/analysis.png)
+
+### 📁 Resume History / Multiple Reports
+
+![History](./screenshots/history.png)
+
+---
+
+## ⚡ Features
+
+* 📄 Upload resume (PDF)
+* 🖱️ Drag & drop support
+* 🤖 AI-powered resume analysis
+* 📊 ATS score calculation
+* 📈 Graphical analytics (charts)
+* 📝 Smart feedback & improvement tips
+* 👤 User authentication (login/signup)
+* 📁 Resume history dashboard
+* ⚡ Fast & responsive UI
+
+---
+
+## 🧠 How It Works
+
+1. User logs in
+2. Uploads resume (PDF)
+3. Resume is processed & analyzed using AI
+4. ATS score is generated
+5. Detailed feedback is shown
+6. Results are stored in dashboard
+
+---
+
+## 🛠️ Tech Stack
+
+| Category      | Technology             |
+| ------------- | ---------------------- |
+| Frontend      | React + TypeScript     |
+| Routing       | React Router           |
+| Styling       | Tailwind CSS           |
+| AI Processing | Puter AI               |
+| Storage       | Puter KV / Cloud       |
+| PDF Handling  | PDF → Image Conversion |
+| Deployment    | Puter Cloud            |
+
+---
+
+## 📂 Project Structure
+
+```
+AI-resume-analyzer/
+│
+├── app/                # Core app logic
+├── src/                # Components & pages
+├── public/             # Static assets
+├── types/              # Type definitions
+├── Dockerfile          # Docker setup
+├── package.json
+└── README.md
+```
+
+---
+
+## 🧑‍💻 Run Locally
 
 ```bash
 npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+👉 Open: http://localhost:5173
 
-## Building for Production
+---
 
-Create a production build:
+## 🐳 Docker Setup
+
+```bash
+docker build -t ai-resume-analyzer .
+docker run -p 3000:3000 ai-resume-analyzer
+```
+
+---
+
+## 📦 Build for Production
 
 ```bash
 npm run build
 ```
 
-## Deployment
+---
 
-### Docker Deployment
+## 🚀 Future Improvements
 
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+* 📥 Downloadable PDF report
+* 🌐 Multi-language support
+* 🧠 Advanced AI scoring model
+* 📊 Resume comparison feature
+* ☁️ Cloud sync across devices
 
 ---
 
-Built with ❤️ using React Router.
+## 🧩 Challenges Faced
+
+* PDF to image conversion
+* AI response optimization
+* Async state management
+* UI/UX refinement
+
+---
+
+## 🏆 What I Learned
+
+* Building real-world full-stack apps
+* Working with AI APIs
+* Handling authentication systems
+* Creating production-ready UI
+* Debugging complex issues
+
+---
+
+## 👨‍💻 Author
+
+**A. Kamalesh**
+
+🔗 GitHub: https://github.com/kamalesh3107ak-ux
+
+---
+
+## 🌟 Support
+
+If you like this project:
+
+⭐ Star the repo
+🍴 Fork it
+📢 Share it
+
+---
+
+## 💡 Quote
+
+> “A great resume opens doors. A smart resume gets you hired.”
